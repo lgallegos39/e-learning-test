@@ -1,18 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<title>E-Learning</title>
-  <link rel="stylesheet" href="css/foundation.css" /> 
+<meta charset="UTF-8">
+<title>E-Learning</title>
+<link rel="stylesheet" href="style/foundation.css" />
+<link rel="stylesheet" href="style/style.css">
 <script src="node_modules/jquery/dist/jquery.min.js"></script>
 <script src="node_modules/handlebars/dist/handlebars.min.js"></script>
+<script src="js/velocity.min.js"></script>
+
 </head>
 <body>
-<div class></div>
-    <script src="js/vendor/jquery.js"></script>
+<div class="container">
+	<div class="node"></div>
+</div>
     <script src="js/vendor/what-input.js"></script>
     <script>
       $(document).foundation();
     </script>
+<script>
+var $element = $('.node');
+$element.velocity({
+    backgroundColor: "#000000",
+    }, {
+    /* Velocity's default options */
+    duration: 1200,
+    easing: "swing",
+    queue: "",
+    begin: undefined,
+    progress: undefined,
+    complete: undefined,
+    display: undefined,
+    visibility: undefined,
+    loop: false,
+    delay: false,
+    mobileHA: true
+});
+</script>
 </body>
 </html>
