@@ -103,6 +103,9 @@ li {
 margin-left: 20px;
 margin-top: 30px;
 }
+h5 {
+  color:#e4fde1;
+}
  .rules {
 background-color: #028090;
 min-width: 300px;
