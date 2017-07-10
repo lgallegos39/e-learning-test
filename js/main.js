@@ -6,5 +6,6 @@ $(function () {
     $landingContent.on("click", function (){
     
         $(this).addClass("clicked");
+        
     })
  });
