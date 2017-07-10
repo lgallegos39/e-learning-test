@@ -1,22 +1,13 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-@import url("https://fonts.googleapis.com/css?family=Oswald");html,body{height:100%;margin:0;padding:0;width:100%}.intro{width:100%;height:100vh;margin:0 auto;background-size:cover;background-color:#114b5f}.intro .inner{vertical-align:middle;width:100%;max-width:none}.sp-content{max-width:500px;margin:0 auto;text-align:center;font-family:'Oswald', sans-serif}h2{font-family:'Oswald', sans-serif;color:#e4fde1;text-shadow:0px 0px 300px #000;font-size:400%;padding-bottom:25px;padding-top:65px}.btn{margin:20px auto;border-radius:9px;color:#e4fde1;font-size:135%;padding:5px 60px;border:solid #028090 3px;text-transform:uppercase;text-decoration:none;width:200px;display:block}.btn:active{color:#e4fde1;background-color:#028090}.btn:hover{color:#e4fde1}.cards{text-align:center;width:100%;background-color:#fff}.card{width:175px;height:250px;background-color:#EB4040;display:inline-block;margin:20px}
-/*# sourceMappingURL=style.css.map */
-=======
-=======
->>>>>>> 2703efeae0a5df1732a54f67f0cc2799bdaf839c
-@import url("https://fonts.googleapis.com/css?family=Oswald");
 
+@import url("https://fonts.googleapis.com/css?family=Oswald");
 html, body {
   height: 100%;
   margin: 0;
   padding:0;
   width: 100%;
 }
-body{
-  background-color:#114b5f;
-  
-
+.grid-container {
+    background-color:#114b5f;
 }
 /*Landing Page*/
 .intro {
@@ -94,9 +85,31 @@ p {
   display: none;
 }
 /* Top Nav Bar */
+h1 {
+  color:#e4fde1;
+}
 .menu {
   list-style-type: none;
-  
+  float: right;
+}
+.nav-right {
+padding-top: 25px;
+}
+li {
+    display: inline-block;
+}
+/*sidebar*/
+.main-content {
+margin-left: 20px;
+margin-top: 30px;
+}
+ .rules {
+background-color: #028090;
+min-width: 300px;
+min-height: 200px;
+border: solid #e4fde1 3px;
+border-radius: 10px;
+padding-left: 25px;
 }
 @media screen and (min-width: 40em) {
   .no-js .top-bar {
@@ -109,9 +122,3 @@ p {
   .intro {
     display: none;
   }
-<<<<<<< HEAD
-}
->>>>>>> 2703efeae0a5df1732a54f67f0cc2799bdaf839c
-=======
-}
->>>>>>> 2703efeae0a5df1732a54f67f0cc2799bdaf839c
