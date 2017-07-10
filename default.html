@@ -7,26 +7,6 @@
   <link rel="stylesheet" type="text/css" href="style/style.css">
 </head>
 <body>
-<!-- landing screen -->
-<section class="intro" id="landing-content">
-
-  <div class="inner">
-    <div class="sp-content">
-    <h2> The Matching Game </h2>
-    <p> Mix up the cards.
-Lay them in rows, face down.
-Turn over any two cards.
-If the two cards match, keep them.
-If they don't match, turn them back over.
-Remember what was on each card and where it was.
-Watch and remember during the other player's turn.
-The game is over when all the cards have been matched.</p>
-    <a class="btn startBtn" href="#"> Start </a> <br> <br>
-       <a class="btn skip-btn" href="#"> Skip </a>
-    </div>
-  </div>
-</section>
-<!-- The Acutal Page -->
 <!--Nav bar-->
 
 <div class="top-bar">
@@ -48,6 +28,11 @@ The game is over when all the cards have been matched.</p>
 
 </div>
 </div>
+<!-- landing screen -->
+<section class="container" id="landing-content">
+
+</section>
+<!-- The Acutal Page -->
   
 
 
@@ -68,6 +53,11 @@ The game is over when all the cards have been matched.</p>
 <script src="js/velocity.ui.js"></script>
 <script src="js/what-input.js"></script>
 <script>
+$(document).ready(function(){
+  $(".container").load("splash.html");
+});
+</script>
+<script>
 $('.card').on('click', function(){
 var $element = $(this);
 $(this).velocity({
@@ -82,18 +72,9 @@ $(this).velocity({
 });
 </script>
 <script src="js/main.js"></script>
-    <script src="js/jquery.js"></script>
     <script src="js/foundation.js"></script>
     <script>
       $(document).foundation();
     </script>
-<script src="js/main.js"></script>
-    <script src="js/jquery.js"></script>
-    <script src="js/foundation.js"></script>
-    <script>
-      $(document).foundation();
-    </script>
-
-</script>
 </body>
 </html>
