@@ -7,10 +7,6 @@
 	<title>E-Learning</title>
   <link rel="stylesheet" href="style/foundation.css" /> 
   <link rel="stylesheet" type="text/css" href="style/style.css">
-<script src="node_modules/jquery/dist/jquery.min.js"></script>
-<script src="node_modules/handlebars/dist/handlebars.min.js"></script>
-<script src="js/velocity.min.js"></script>
-
 </head>
 <body>
 <!-- landing screen -->
@@ -67,6 +63,31 @@ The game is over when all the cards have been matched.</p>
 
 
 </div>
+<script src="node_modules/jquery/dist/jquery.min.js"></script>
+<script src="node_modules/handlebars/dist/handlebars.min.js"></script>
+<script src="js/velocity.min.js"></script>
+<script src="js/velocity.ui.js"></script>
+<script src="js/what-input.js"></script>
+<script>
+$('.card').on('click', function(){
+var $element = $(this);
+$(this).velocity({
+    rotateY: "180deg",
+    }, {
+    /* Velocity's default options */
+    duration: 800,
+    easing: "swing",
+    mobileHA: true,
+});
+//.velocity("reverse")
+});
+</script>
+<script src="js/main.js"></script>
+    <script src="js/jquery.js"></script>
+    <script src="js/foundation.js"></script>
+    <script>
+      $(document).foundation();
+    </script>
 <script src="js/main.js"></script>
     <script src="js/jquery.js"></script>
     <script src="js/foundation.js"></script>
