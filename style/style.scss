@@ -1,3 +1,4 @@
+$bblue:#114b5f;
 @import url('https://fonts.googleapis.com/css?family=Oswald');
 * {
   box-sizing: border-box;
@@ -8,15 +9,44 @@ html, body {
 }
 
 body {
-  background: #114b5f;
+  background: $bblue;
   min-height: 90%;
   font-family: "Arial", sans-serif;
 }
-
+nav {
+  background: #1D343B;
+  float: left;
+  padding: 30px;
+  position: absolute;
+  top:30%;
+  left:0px;
+  display: block;
+  ul {
+    padding: 0px;
+    margin: 0px;
+  }
+  li {
+    list-style: none;
+    a {
+      width:130px;
+      padding:10px;
+      background: #65b9ad;
+      display:block;
+      margin:10px;
+      text-align: center;
+      color: #fff;
+      font-size: 1.5em;
+      font-weight: 400;
+      border-radius: 20px;
+    }
+  }
+}
 .wrap {
   position: relative;
+  width: 70%;
+  float:right;
   height: 80%;
-  margin-top: 10%;
+  margin-top: 15%;
   min-height: 500px;
   padding-bottom: 20px;
 }
